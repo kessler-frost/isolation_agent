@@ -1,3 +1,6 @@
+# Research Review
+
+The file 'research_review.pdf' contains my review of [How to advance general game playing artificial intelligence by player modelling](https://arxiv.org/pdf/1606.00401.pdf) research paper.
 
 # Isolation Playing Agent
 
@@ -48,3 +51,7 @@ The tournament opponents are listed below. (See also: sample heuristics and play
 ## Game Visualization
 
 The `isoviz` folder contains a modified version of chessboard.js that can animate games played on a 7x7 board.  In order to use the board, you must run a local webserver by running `python -m http.server 8000` from this project directory (you can replace 8000 with another port number if that one is unavailable), then open your browser to `http://localhost:8000` and navigate to the `/isoviz/display.html` page.  Enter the move history of an isolation match (i.e., the array returned by the Board.play() method) into the text area and run the match.  Refresh the page to run a different game.
+
+## Heuristic Evaluations
+
+The file 'heuristic_analysis.pdf' contains the results of my evaluation of all the three custom heuristics that I used to design my agent.
